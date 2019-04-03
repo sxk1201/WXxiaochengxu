@@ -1,0 +1,28 @@
+.index-container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom:200rpx;
+}
+.index-container image{
+  width: 100%;
+  height:350rpx;
+}
+.nickname{
+  width:250rpx;
+  height:250rpx;
+  position: absolute;
+  top: 260rpx;
+  left: 50rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  border:10rpx solid white;
+}
+.nickname image{
+  width:250rpx;
+  height:250rpx;
+}
+.weui-cell__bd image{
+  width:40rpx;
+  height:40rpx;
+}

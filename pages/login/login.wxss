@@ -1,0 +1,68 @@
+.mcontainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+} 
+.item{
+    display: flex;
+    overflow: hidden;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:10rpx;
+}
+.logo{
+  width:320rpx;
+  height:100rpx;
+  margin-top:50rpx;
+}
+.login-item{
+    margin-top: 30rpx;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.login-item .login-item-info{
+ padding-bottom: 20rpx;
+  font-size:35rpx;
+  color:black;
+}
+.login-item input{
+  border:1rpx solid #ccc;
+  border-radius:10rpx;
+  padding:10rpx;
+  font-size:25rpx;
+}
+.login-item .login-btn{
+    width: 80%;
+    color: white;
+    font-size: 14px;
+    background: #1E90FF;
+}
+.bottom-info {
+  font-size: 35rpx;
+}
+.bottom-info .forgetpwd{
+  padding:10rpx;
+}
+.bottom-info .forgetpwd:hover{
+  color:red;
+}
+.bottom-info .newregist text{
+  padding:0rpx 20rpx;
+}
+.bottom-info .newregist text:hover{
+  color:#1E90FF;
+}
+.wechat-icon image{
+  margin-top:20rpx;
+  width: 80rpx;
+  height:80rpx;
+  padding: 20rpx;
+  border: 1rpx solid #1E90FF;
+  border-radius: 50%;
+}

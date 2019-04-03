@@ -1,0 +1,88 @@
+.selection{
+  border-bottom: 10rpx solid #1E90FF;
+}
+.slide-image{
+  width:100%;
+}
+.header{
+  border-left:8rpx solid  #1E90FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.text-all{
+  color: gray;
+  font-size:25rpx;
+  line-height: 60rpx;
+}
+.content{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.content-item{
+  height: 250rpx;
+  width: 45%;
+  margin: 5px;
+  position: relative;
+  border:1rpx solid #ccc;
+  border-radius:15rpx;
+  overflow: hidden;
+}
+.content-item image{
+  width: 100%;
+  height: 100%;
+}
+.content-item-text{
+  position: absolute;
+  bottom: 0rpx;
+  height:60rpx;
+  width:100%;
+  color: white;
+  font-size:25rpx;
+  line-height: 60rpx;
+  text-align: center;
+  background: rgba(0,0,0,0.3);
+}
+
+.list-item{
+  height: 500rpx;
+  width: 100%;
+}
+.list-item-images{
+   height: 300rpx;
+   width: 100%;
+   position: relative;
+}
+.list-item-images-img{
+   height: 100%;
+   width: 100%;
+}
+.avatar{
+  width: 90rpx;
+  height: 90rpx;
+  position: absolute;
+  bottom: -40rpx;
+  right: 50rpx;
+}
+.list-item-text{
+  height: 200rpx;
+  width: 96%;
+  margin-top: 20rpx;
+  padding:0rpx 20rpx;
+}
+.list-item-text-title{
+  font-size:30rpx;
+  }
+.list-item-text-content{
+  font-size:25rpx;
+  color:gray;
+  margin-top: 20rpx;
+}

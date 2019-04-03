@@ -1,0 +1,33 @@
+<view class="index-container">
+   <image  src="img/user_bg.jpg" ></image>
+   <view class="nickname">
+      <image  src="img/touxiang.jpg" ></image>
+   </view>
+</view>
+
+<view class='user-list'>
+    <view class="weui-cells weui-cells_after-title" style='width:90%'>
+      <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <image src='img/kecheng.png'></image>
+            我的课程
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <image src='img/shoucang.png'></image>
+            我的收藏
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <image src='img/xinxi.png'></image>
+            我的信息
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </view>
+</view>
+
